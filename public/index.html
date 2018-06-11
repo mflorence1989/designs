@@ -7,20 +7,59 @@
     <!-- <link rel="stylesheet" href="/css/main.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
   <style >
+  /*desktop */
     @media only screen and (min-width: 960px) {
-  .container{
-    width: 960px;
-  }
+      .container{
+        width: 960px;
+      }
+      .header-left{
+        padding: 36px 15px 70px 15px !important;
+      }
     }
+      /*tablet */
     @media only screen and (max-width: 960px) {
       .container{
         width: 600px;
       }
-
     }
+      /*mobile */
     @media only screen and (max-width: 600px) {
       .container{
-        width: 100;
+        width: 100%;
+      }
+      .header-left{
+        width: 100%;
+      }
+      .header-right{
+        width: 100%;
+      }
+      .lets-you-row .left-column{
+        width: 50%;
+      }
+      .lets-you-row .middle-column{
+        width: 50%;
+      }
+      .lets-you-row .right-column{
+        width: 100%;
+      }
+      .advanced-table .image_head{
+        width: 100%;
+      }
+      .advanced-table .left-column {
+          width:100%;
+      }
+      .advanced-table .left-column  .left-store {
+        text-align:center;
+        width:100%;
+
+      }
+      .advanced-table .right-column {
+        width:100%;
+      }
+      .advanced-table .right-column .right-store {
+        text-align:center;
+        width:100%;
+
       }
 
     }
@@ -55,14 +94,14 @@
       <table class="header-right" width="50%" border="0" align="right" cellspacing="0" cellpadding="0" style="background:white;">
         <!--style -->
         <tr>
-          <td style= "color: #7d7d7d; font-family: 'Open Sans', sans-serif,'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; ">
-          <table class="container" width="100%" border="0" align="center" cellspacing="0" cellpadding="0" style="padding: 20px;">
+          <td style="color: #7d7d7d; font-family: 'Open Sans', sans-serif,'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; ">
+          <table class="menu-table" width="100%" border="0" align="center" cellspacing="0" cellpadding="0" style="padding: 20px;">
             <tr>
               <td align="center">
                 <a href="#" style= "color:#7d7d7d; font-size:14px; font-weight:600; text-decoration:none;">About</a>
               </td>
               <td align="center">
-                <a href="#" style= "color:#7d7d7d; font-size:14px; font-weight:600; text-decoration:none;">Careers</a>
+                <a href="#" style="color:#7d7d7d; font-size:14px; font-weight:600; text-decoration:none;">Careers</a>
               </td>
               <td align="center">
                 <a href="#" style= "color:#7d7d7d; font-size:14px; font-weight:600; text-decoration:none;">Contact</a>
@@ -176,7 +215,7 @@
           <tr>
             <td style="color:#333333; text-transform:uppercase; font-weight: 300;  font-size: 24px; font-family: 'Open Sans', sans-serif,'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;padding: 36px 0 5x 0;" align="center" >
 
-              <img src="/img/image_head.jpg" >
+              <img src="/img/image_head.jpg" class="image_head">
             </td>
           </tr>
           <tr>
@@ -191,11 +230,11 @@
           style="padding: 15px 15px 0 15px; background: white;">
           <tr>
             <td>
-              <p style="padding: 0 0 30px; color:#7f8887;  font-weight: 400; line-height:1.8; font-size: 14px; font-family: 'Open Sans', sans-serif,'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; ">Notify me when you see the opps Notify me when you see the opps Notify me when you see the opps.</p>
+              <p style="padding: 0 0 30px; color:#7f8887;  font-weight: 400; line-height:1.8; font-size: 14px; font-family: 'Open Sans', sans-serif,'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; ">Notify me when you see the opps Notify me when you see the opps .</p>
             </td>
           </tr>
           <tr>
-            <td align="right">
+            <td align="right" class="left-store">
               <img src="/img/appstore.png" >
             </td>
           </tr>
@@ -205,11 +244,11 @@
         style="padding: 15px 15px 0 15px; background: white;">
         <tr>
           <td>
-            <p style="padding: 0 0 30px; color:#7f8887;  font-weight: 400; line-height:1.8; font-size: 14px; font-family: 'Open Sans', sans-serif,'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; ">Notify me when you see the opps Notify me when you see the opps Notify me when you see the opps.</p>
+            <p style="padding: 0 0 30px; color:#7f8887;  font-weight: 400; line-height:1.8; font-size: 14px; font-family: 'Open Sans', sans-serif,'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; ">Notify me when you see the opps Notify me when you see the opps.</p>
           </td>
         </tr>
         <tr>
-          <td align="left">
+          <td align="left" class="right-store">
             <img src="/img/playstore.png" >
           </td>
         </tr>
